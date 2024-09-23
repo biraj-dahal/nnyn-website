@@ -1,0 +1,46 @@
+.mainpage {
+  padding: 50px;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;  // Allows for vertical stacking
+  justify-content: center;  // Centers items vertically
+   // Centers items horizontally
+  .mainwords {
+    position: absolute;
+    font-family: 'Syncopate';
+    top: 60px;
+    letter-spacing: 1px;
+    color: rgb(166, 44, 44);
+    text-transform: uppercase;
+    z-index: 2; 
+    
+    li {
+      margin: 10px 0;
+    }
+  }
+
+  #main-big-text {
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Bai Jamjuree', sans-serif ;
+    letter-spacing: 1px;
+    z-index: 2; 
+    line-height: 1.0;
+    text-align: center;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('./../../../../public/logo.jpeg') no-repeat center;
+    background-size: cover;  
+    opacity: 0.04;           
+    z-index: 1;  // Places it behind the text
+  }
+}
