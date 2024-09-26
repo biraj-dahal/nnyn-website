@@ -41,21 +41,10 @@ const founders_array = [
   },
 ];
 const FounderItem: React.FC<FoundersProps> = ({ src, name, university, major, updateActiveImage, index }) => {
-  const ref = useRef(null);
 
-  const onScreen = useOnScreen(ref, 0.5);
-
-  useEffect(() => {
-    if (onScreen) {
-      updateActiveImage(index);
-    }
-  }, [onScreen, index]);
 
   return (
-    <div
-    className={cn("founder-item-block", { "is-reveal": onScreen })}
-    ref={ref}
-  >
+    <>
       <div></div>
       <div className={'founder-item'}>
         <div className='founder-info'>
@@ -68,7 +57,7 @@ const FounderItem: React.FC<FoundersProps> = ({ src, name, university, major, up
         </div>
       </div>
       <div />
-    </div>
+      </>
   );
 };
 
@@ -85,29 +74,6 @@ interface FoundersProps {
 const Founders: React.FC = () => {
   const [activeImage, setActiveImage] = useState(1);
 
-  const ref = useRef(null);
-  useEffect(() => {
-    // This does not seem to work without a settimeout
-    setTimeout(() => {
-
-      let sections = gsap.utils.toArray(".gallery-item-wrapper");
-
-      gsap.to(sections, {
-        xPercent: -100 * (sections.length - 1),
-        ease: "none",
-        scrollTrigger: {
-          start: "top top",
-          trigger: ref.current,
-          scroller: "#main-container",
-          pin: true,
-          scrub: 0.5,
-          snap: 1 / (sections.length - 1),
-          end: () => `+=${ref.current.offsetWidth}`,
-        },
-      });
-      ScrollTrigger.refresh();
-    });
-  }, []);
 
   const handleUpdateActiveImage = (index) => {
     setActiveImage(index + 1);

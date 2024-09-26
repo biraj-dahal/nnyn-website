@@ -1,0 +1,37 @@
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.secttion h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.social_links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 05px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 01px;
+}
+
+@media (max-width: 768px) {
+    #footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+    }
+}

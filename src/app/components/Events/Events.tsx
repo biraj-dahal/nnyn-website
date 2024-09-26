@@ -1,9 +1,10 @@
 import React from 'react';
 import SectionHeader from '../SectionHeader/SectionHeader';
-import './styles.scss'
+import './styles.scss';
 
 const Events: React.FC = () => {
-  const calendarSrc: string = "https://calendar.google.com/calendar/embed?src=5efae451950b62f28ca23ee32edcbe893b63cdb7e9f07f89099cd179585b53fb%40group.calendar.google.com&ctz=America%2FNew_York&hl=en";
+  // URL for the styled calendar
+  const calendarSrc = "https://embed.styledcalendar.com/#COVF3dsjxKvcshFhxXvH";
 
   return (
     <div id="events" className="events">
@@ -11,8 +12,11 @@ const Events: React.FC = () => {
       <div className="calendar-container">
         <iframe
           src={calendarSrc}
-          title="Google Calendar"
+          title="Styled Calendar"
+          className="styled-calendar-container"
+          style={{ width: '100%', height: '100%' }} // Ensuring full width and height
         ></iframe>
+        <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
       </div>
     </div>
   );

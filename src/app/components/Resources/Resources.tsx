@@ -1,10 +1,11 @@
 import React from 'react';
-
+import './styles.scss';
+import SectionHeader from '../SectionHeader/SectionHeader';
 const Resources: React.FC = () => {
   return (
-    <div id="resources" className="resources"> 
-    <h1>Resources Section</h1>
-  </div>
+    <section id="resources" className="resources"> 
+    <SectionHeader title="Resources" />
+  </section>
   );
 };
 
