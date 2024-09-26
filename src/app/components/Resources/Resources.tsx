@@ -1,11 +1,12 @@
 import React from 'react';
-
-const Navbar: React.FC = () => {
+import './styles.scss';
+import SectionHeader from '../SectionHeader/SectionHeader';
+const Resources: React.FC = () => {
   return (
-    <div id="resources" className="section"> 
-    <h1>Resources Section</h1>
-  </div>
+    <section id="resources" className="resources"> 
+    <SectionHeader title="Resources" />
+  </section>
   );
 };
 
-export default Navbar;
+export default Resources;
