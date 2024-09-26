@@ -21,7 +21,7 @@
   }
 
   #main-big-text {
-    font-size: 10vw;
+    font-size: 8vw;
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Bai Jamjuree', sans-serif ;
@@ -41,6 +41,6 @@
     background: url('./../../../../public/logo.jpeg') no-repeat center;
     background-size: cover;  
     opacity: 0.04;           
-    z-index: 1;  // Places it behind the text
+    z-index: 1;  
   }
 }
