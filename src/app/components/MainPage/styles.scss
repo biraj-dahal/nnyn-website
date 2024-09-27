@@ -3,9 +3,9 @@
   min-height: 100vh;
   position: relative;
   display: flex;
-  flex-direction: column;  // Allows for vertical stacking
-  justify-content: center;  // Centers items vertically
-   // Centers items horizontally
+  flex-direction: column;  
+  justify-content: center; 
+
   .mainwords {
     position: absolute;
     font-family: 'Syncopate';

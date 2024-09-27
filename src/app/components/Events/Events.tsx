@@ -12,7 +12,7 @@ const Events: React.FC = () => {
       <div className="calendar-container">
         <iframe
           src={calendarSrc}
-          title="Styled Calendar"
+          title="NNYN Event Calendar"
           className="styled-calendar-container"
           style={{ width: '100%', height: '100%' }} // Ensuring full width and height
         ></iframe>

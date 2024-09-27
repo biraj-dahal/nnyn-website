@@ -1,7 +1,9 @@
-import React from 'react';
+
+import React, { useEffect } from 'react';
 import './styles.scss';  
 
 const MainPage: React.FC = () => {
+
   return (
     <section className="mainpage"> 
 
