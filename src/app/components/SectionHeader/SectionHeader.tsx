@@ -3,11 +3,12 @@ import './styles.scss'
 
 interface SectionHeaderProps{
   title: string;
+  color? : string;
 }
 
-const SectionHeader: React.FC<SectionHeaderProps> = ({ title }) => {
+const SectionHeader: React.FC<SectionHeaderProps> = ({ title, color }) => {
   return (
-    <h6 className='section-header'>{title}</h6>
+    <h6 className='section-header' style= {{ color: color || 'rgb(166, 44, 44)'}}>{title}</h6>
   );
 };
 

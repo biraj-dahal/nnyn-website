@@ -1,10 +1,20 @@
 .mainWindow {
-    display: flex;
-    flex-direction: column; 
-    
+  display: flex;
+  flex-direction: column;
+  scroll-snap-type: y mandatory;
+  overflow-y: auto; /* Changed from scroll to auto for smooth scrolling */
+  height: 100vh; 
+}
 
+.section {
+  scroll-snap-align: start;
+  min-height: 100vh; 
+  /* Add padding or margin adjustments for mobile */
+  @media (max-width: 600px) {
+      min-height: auto; /* Allow auto height on mobile */
+  }
 }
 
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth; 
+}
