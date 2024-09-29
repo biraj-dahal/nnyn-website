@@ -7,13 +7,13 @@ import { LinkedInEmbed } from 'react-social-media-embed';
 const JoinNYYN: React.FC = () => {
   const linkedInPosts = [
     {
-      url: "https://www.linkedin.com/embed/feed/update/urn:li:share:7056990524527800320",
+      url: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7233738218720948224",
     },
     {
       url: "https://www.linkedin.com/embed/feed/update/urn:li:share:7186704449464147968",
     },
     {
-      url: "https://www.linkedin.com/embed/feed/update/urn:li:share:7172268791828045824",
+      url: "https://www.linkedin.com/embed/feed/update/urn:li:share:7179171712456892416",
     },
   ];
 
