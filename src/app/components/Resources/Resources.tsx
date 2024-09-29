@@ -44,7 +44,7 @@ const Resources: React.FC = () => {
           The program will last 10 weeks and will approximately start in mid October. Each week mentors and mentees will meet for 1 hour to discuss college applications, career advice, essay feedback, etc. The sessions will roughly be broken down as follows but will be tailored specifically depending on the mentor and mentee's interests.
         </p>
         <p>
-          In week 1 mentors and mentees will discuss the mentee&apos;s goals, college list, and where they are in the college application cycle. The first part of the program will be spent on workshopping the mentee&apos;s overall application story. Then mentees and mentors will work together on polishing the mentee&apos;s personal statements and extracurricular essays. The final part will focus on career advice and finding scholarship opportunities, etc.
+          In week 1 mentors and mentees will discuss the mentees{ "'s" } goals, college list, and where they are in the college application cycle. The first part of the program will be spent on workshopping the mentees{ "'s" } overall application story. Then mentees and mentors will work together on polishing the mentees{ "'s" } personal statements and extracurricular essays. The final part will focus on career advice and finding scholarship opportunities, etc.
         </p>
         <p>Please find the applications on the next section!</p>
         <p>
