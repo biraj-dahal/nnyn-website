@@ -46,6 +46,7 @@ const Resources: React.FC = () => {
         <p>
           In week 1 mentors and mentees will discuss the mentees&rsquo; goals, college list, and where they are in the college application cycle. The first part of the program will be spent on workshopping the mentees&rsquo; overall application story. Then mentees and mentors will work together on polishing the mentees&rsquo; personal statements and extracurricular essays. The final part will focus on career advice and finding scholarship opportunities, etc.
         </p>
+        <p>Please find the applications on the next section!</p>
         <p>
           If you have any questions regarding the application, please reach out to 
           <a href="mailto:nationalnepaliyouthnetwork@gmail.com"> nationalnepaliyouthnetwork@gmail.com</a> 
