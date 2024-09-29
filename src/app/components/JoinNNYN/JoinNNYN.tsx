@@ -54,7 +54,6 @@ const JoinNYYN: React.FC = () => {
         </div>
 
         <div className="centered-section">
-          <div className="scroll-container">
             <div className="social-posts-grid">
               {linkedInPosts.map((post, index) => (
                 <div key={index} className="small-card">
@@ -68,7 +67,6 @@ const JoinNYYN: React.FC = () => {
               ))}
             </div>
           </div>
-        </div>
       </section>
       <Footer />
     </>

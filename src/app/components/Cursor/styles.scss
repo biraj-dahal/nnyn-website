@@ -20,6 +20,11 @@
     }
   }
   
+  @media (max-width: 768px) {
+    .secondary-cursor {
+      display: none;
+    }
+  }
   
   .secondary-cursor {
     z-index: 10000;
