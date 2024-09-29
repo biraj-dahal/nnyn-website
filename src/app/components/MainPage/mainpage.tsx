@@ -15,7 +15,7 @@ const MainPage: React.FC = () => {
       const timers = mainWords.map((_, index) => 
         setTimeout(() => {
           setVisibleWords((prev) => prev + 1);
-        }, (index + 1) * 600) // Adjusted for a bit more delay for better visibility
+        }, (index + 1) * 600) 
       );
 
       return () => {
@@ -24,7 +24,7 @@ const MainPage: React.FC = () => {
     }, 500); 
 
     return () => clearTimeout(bigTextTimeout); 
-  }, []); // Intentionally excluding mainWords
+  }, []); 
 
   return (
     <>

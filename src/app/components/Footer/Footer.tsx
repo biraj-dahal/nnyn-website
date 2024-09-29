@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
         <a href="mailto:nationalnepaliyouthnetwork@gmail.com">
           <FaEnvelope />
         </a>
-        <a href="tel:+19842705891"> {/* Added phone link */}
+        <a href="tel:+19842705891"> 
           <FaPhone />
         </a>
       </div>

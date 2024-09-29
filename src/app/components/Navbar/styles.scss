@@ -6,7 +6,7 @@
     justify-content: space-between; 
     align-items: center; 
     height: 10vh;
-    padding: 0 1.5vw; /* Adjust this padding as necessary */
+    padding: 0 1.5vw; 
     width: 100%; 
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -90,7 +90,6 @@
     }
 }
 
-/* Add a media query for larger screens */
 @media (min-width: 600px) {
     .navbar-window {
         padding: 0 2.604vw; 

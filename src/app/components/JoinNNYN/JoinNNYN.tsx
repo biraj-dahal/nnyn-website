@@ -22,7 +22,6 @@ const JoinNYYN: React.FC = () => {
       <section id="join" className="join">
         <SectionHeader title="Join Us" />
 
-        {/* Enrollment Forms Section */}
         <div className="centered-section">
           <div className="form-grid">
             <div className="small-card">
@@ -32,7 +31,7 @@ const JoinNYYN: React.FC = () => {
                 href="https://forms.gle/nAQUZBZtN4WTUaxYA" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="fill-form-button" // Ensure this class is added
+                className="fill-form-button" 
               >
                 Fill the form
               </a>
@@ -45,7 +44,7 @@ const JoinNYYN: React.FC = () => {
                 href="https://forms.gle/9LEtHX6JLRnTNjJA7" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="fill-form-button" // Ensure this class is added
+                className="fill-form-button" 
               >
                 Fill the form
               </a>
