@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useContext } from "react";
+import React from "react";
 import "./styles.scss";
 // import CustomCursorContext from "./context/CustomCursorContext";
 

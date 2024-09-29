@@ -24,7 +24,6 @@ const JoinNYYN: React.FC = () => {
 
         {/* Enrollment Forms Section */}
         <div className="centered-section">
-          <h3 className="subheading">Enrollment Forms</h3>
           <div className="form-grid">
             <div className="small-card">
               <h4>Mentor/Mentee Form</h4>
@@ -55,7 +54,6 @@ const JoinNYYN: React.FC = () => {
         </div>
 
         <div className="centered-section">
-          <h3 className="subheading">LinkedIn</h3>
           <div className="scroll-container">
             <div className="social-posts-grid">
               {linkedInPosts.map((post, index) => (

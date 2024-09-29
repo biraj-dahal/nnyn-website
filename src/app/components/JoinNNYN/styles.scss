@@ -17,6 +17,8 @@
 }
 
 .form-grid, .social-posts-grid {
+  margin-top: 20px;
+
   display: flex;
   justify-content: center;
   gap: 1.5rem;
@@ -74,8 +76,9 @@
 .social-posts-grid {
   display: flex;
   justify-content: center;
-  gap: 1rem; /* Reduced gap */
+  gap: 1rem; 
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 .small-card {

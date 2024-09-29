@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import './styles.scss';
 import SectionHeader from '../SectionHeader/SectionHeader';
 import Image from 'next/image';

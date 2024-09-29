@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect } from 'react';
+import React from 'react';
 import About from './components/About/About';
 import Founders from './components/Founders/Founders';
 import Events from './components/Events/Events';

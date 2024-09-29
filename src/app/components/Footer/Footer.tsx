@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles.scss';
-import SectionHeader from '../SectionHeader/SectionHeader';
 import { FaLinkedin, FaInstagram, FaEnvelope, FaPhone } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
