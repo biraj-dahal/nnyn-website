@@ -24,7 +24,7 @@ const MainPage: React.FC = () => {
     }, 500); 
 
     return () => clearTimeout(bigTextTimeout); 
-  }, []); 
+  }, [mainWords]); 
 
   return (
     <>
