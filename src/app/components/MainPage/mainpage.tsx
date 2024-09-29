@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import './styles.scss';  
 import Navbar from '../Navbar/Navbar';
 
@@ -6,8 +6,8 @@ const MainPage: React.FC = () => {
   const [isBigTextAnimated, setIsBigTextAnimated] = useState<boolean>(false);
   const [visibleWords, setVisibleWords] = useState<number>(0);
   
-  const mainWords = ['Unite', 'Navigate', 'Excel'];
-
+  const mainWords = useMemo(() => ['Unite', 'Navigate', 'Excel'], []);
+  
   useEffect(() => {
     const bigTextTimeout = setTimeout(() => {
       setIsBigTextAnimated(true);
@@ -24,7 +24,7 @@ const MainPage: React.FC = () => {
     }, 500); 
 
     return () => clearTimeout(bigTextTimeout); 
-  }, []); 
+  }, [mainWords]); 
 
   return (
     <>
